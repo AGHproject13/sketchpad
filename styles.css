@@ -4,16 +4,20 @@
 
 .container {
   border: 1px solid black;
-  margin: 4em 20em;
+  width: 80vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 25%;
 }
 
 .row {
+  flex: 1;
   display: flex;
 }
 
 .column {
   flex: 1;
-  padding-bottom: 2.5em;
   /* border: 1px solid black; */
 }
 

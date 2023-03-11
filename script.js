@@ -1,8 +1,9 @@
 const container = document.querySelector(".container");
-for (let i = 0; i < 16; i++) {
+const gridRatio = 48;
+for (let i = 0; i < gridRatio; i++) {
   const row = document.createElement("div");
   row.classList.add("row");
-  for (let j = 0; j < 16; j++) {
+  for (let j = 0; j < gridRatio; j++) {
     const column = document.createElement("div");
     column.classList.add("column");
     column.addEventListener("mouseover", addColor);
