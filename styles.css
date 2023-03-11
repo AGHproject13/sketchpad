@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 4em 20em;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding-bottom: 2.5em;
+  /* border: 1px solid black; */
+}
+
+.column.sketch {
+  background-color: #000;
+}
