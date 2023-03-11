@@ -2,6 +2,12 @@
   margin: 0;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   border: 1px solid black;
   width: 80vh;
